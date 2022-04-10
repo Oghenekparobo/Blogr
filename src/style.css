@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header{
+    border-bottom-left-radius: 100px;
+}
+ 
+.btn{ 
+    @apply hover:text-red-600 hover:bg-white hover:p-2 hover:px-6 hover:font-bold hover:rounded-full hover:transition hover:duration-100  hover:ease-out;
+}
+
+.btn-link{ 
+   @apply border border-white px-4 py-3 rounded-full hover:text-red-600 hover:bg-white hover:py-4 hover:px-6 hover:font-bold hover:rounded-full hover:transition hover:duration-100  hover:ease-out
+}
+
+.future-img .img-container{ 
+    width:750px;
+}
+
+.custom-header-text{ 
+    @apply text-2xl text-darkblue-200;
+}
+
+.custom-paragraph{ 
+    @apply text-grayblue-100 pt-4;
+}

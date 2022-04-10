@@ -1,0 +1,15 @@
+{
+  "name": "blogr",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
