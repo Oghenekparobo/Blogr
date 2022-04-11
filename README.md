@@ -23,7 +23,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Oghenekparobo/Blogr)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
