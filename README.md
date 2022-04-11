@@ -19,7 +19,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/images/screenbud-247eac9e-fa7c-4e4e-a886-d67ee2f40dea.png)
 
 ### Links
 
