@@ -532,6 +532,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-around;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -557,16 +561,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-40{
   padding-left: 10rem;
   padding-right: 10rem;
-}
-
-.py-9{
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
-}
-
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .py-28{
@@ -610,16 +604,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 5rem;
 }
 
+.pb-28{
+  padding-bottom: 7rem;
+}
+
 .pt-20{
   padding-top: 5rem;
 }
 
 .pb-2{
   padding-bottom: 0.5rem;
-}
-
-.pb-28{
-  padding-bottom: 7rem;
 }
 
 .text-center{
@@ -741,7 +735,7 @@ header{
 }
 
 .future-img .img-container{
-  width:750px;
+  width:650px;
 }
 
 .custom-header-text{
@@ -772,23 +766,6 @@ header{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 100ms;
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.hover\:border-b-2:hover{
-  border-bottom-width: 2px;
-}
-
-.hover\:border-b-white:hover{
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.hover\:duration-100:hover{
-  transition-duration: 100ms;
-}
-
-.hover\:ease-out:hover{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
