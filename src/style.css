@@ -28,3 +28,13 @@ header{
 .custom-paragraph{ 
     @apply text-grayblue-100 pt-4;
 }
+
+.sai{
+    height: 420px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.footer-border-style{ 
+    @apply hover:border-b-2 hover:border-b-white  hover:transition hover:duration-100  hover:ease-out;
+}
