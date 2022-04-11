@@ -1,6 +1,6 @@
 # Frontend Mentor - Blogr landing page solution
 
-This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://blogr-fm-challenge.netlify.app/). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Oghenekparobo/Blogr)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://blogr-fm-challenge.netlify.app/)
 
 ## My process
 
@@ -53,8 +53,8 @@ the project would be made responsive to all screens subsequently, i will also be
 
 ## Author
 
-- Website - [stephen](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [stephen](https://github.com/Oghenekparobo/Blogr)
+- Frontend Mentor - [Oghenekparobo](https://www.frontendmentor.io/profile/Oghenekparobo)
+- Twitter - [stephenjyd](https://twitter.com/stephenjyd)
 
 
