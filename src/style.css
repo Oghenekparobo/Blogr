@@ -5,28 +5,64 @@
 @tailwind components;
 @tailwind utilities;
 
+.credit { font-size: 11px; text-align: center; }
+.credit a { color: hsl(228, 45%, 44%); }
+
+.product-sub-menu-link{ 
+display: none;
+}
+
+.product-link:hover .product-sub-menu-link{ 
+    transition: all 5s ease-in-out;
+    display: block;
+}
+
+
+.company-sub-menu-link{ 
+    display: none;
+    }
+    
+.company-link:hover .company-sub-menu-link{ 
+    transition: all 5s ease-in-out;
+     display: block;
+    }
+    
+.connect-sub-menu-link{ 
+    display: none;
+    }
+
+.connect-link:hover .connect-sub-menu-link{ 
+    transition: all 5s ease-in-out;
+    display: block;
+    }
+
 header{
     border-bottom-left-radius: 100px;
 }
  
-.btn{ 
-    @apply hover:text-red-600 hover:bg-white hover:p-2 hover:px-6 hover:font-bold hover:rounded-full hover:transition hover:duration-100  hover:ease-out;
+.btn-white{ 
+    @apply bg-white text-gradientred-100 font-bold px-6 py-2 rounded-full;
 }
 
-.btn-link{ 
-   @apply border border-white px-4 py-3 rounded-full hover:text-red-600 hover:bg-white hover:py-4 hover:px-6 hover:font-bold hover:rounded-full hover:transition hover:duration-100  hover:ease-out
+.border-w{ 
+    @apply border border-white px-6 py-2 rounded-full;
 }
 
-.future-img .img-container{ 
-    width:650px;
+.hover-w{ 
+    @apply hover:bg-white hover:text-gradientred-100 hover:font-bold hover:px-6 hover:py-2 hover:rounded-full;
 }
+
+.bg-opacity{ 
+    @apply hover:bg-opacity-40 hover:text-white;
+}
+
 
 .custom-header-text{ 
     @apply text-2xl text-darkblue-200;
 }
 
 .custom-paragraph{ 
-    @apply text-grayblue-100 pt-4;
+    @apply text-slate-400 pt-4;
 }
 
 .sai{

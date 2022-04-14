@@ -36,7 +36,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 
 ### What I learned
-i got familiar with tailwind css and the fact that i can bundle numerous styles in one class, makes it a very powerfultool, different from other css
+i got familiar with tailwind css and the fact that i can bundle numerous styles in one class, makes it a very powerfultool, different from other css, also helped sharpened my css skilss.
 
 ```tailwind css
  
@@ -48,7 +48,7 @@ i got familiar with tailwind css and the fact that i can bundle numerous styles 
 
 ### Continued development
 
-the project would be made responsive to all screens subsequently, i will also be refactoring the codes too, active states for nav menus will aslo be completed with javascript
+the project would be made responsive to all screens subsequently, i will also be refactoring the codes too, active states for nav menus was done with css, since i am not familiar with javascript yet, only the footer date was implemented with javascript
 
 
 ## Author

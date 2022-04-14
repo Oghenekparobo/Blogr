@@ -472,6 +472,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
 }
@@ -488,12 +492,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 5rem;
 }
 
+.ml-8{
+  margin-left: 2rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mr-8{
   margin-right: 2rem;
 }
 
+.mt-36{
+  margin-top: 9rem;
+}
+
+.mb-36{
+  margin-bottom: 9rem;
+}
+
 .mt-32{
   margin-top: 8rem;
+}
+
+.block{
+  display: block;
 }
 
 .inline{
@@ -520,6 +544,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-72{
+  width: 18rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
 .items-center{
   align-items: center;
 }
@@ -532,8 +564,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-around;
 }
 
-.gap-8{
-  gap: 2rem;
+.rounded{
+  border-radius: 0.25rem;
 }
 
 .border{
@@ -543,6 +575,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gradientred-100{
   --tw-bg-opacity: 1;
   background-color: rgb(255 61 84 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradientblue-100{
@@ -558,6 +595,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.5rem;
 }
 
+.p-32{
+  padding: 8rem;
+}
+
+.p-24{
+  padding: 6rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .px-40{
   padding-left: 10rem;
   padding-right: 10rem;
@@ -568,8 +623,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 7rem;
 }
 
-.pt-4{
-  padding-top: 1rem;
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-32{
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .pr-10{
@@ -580,20 +650,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.5rem;
 }
 
-.pl-6{
-  padding-left: 1.5rem;
-}
-
-.pl-8{
-  padding-left: 2rem;
+.pr-8{
+  padding-right: 2rem;
 }
 
 .pt-11{
   padding-top: 2.75rem;
-}
-
-.pt-36{
-  padding-top: 9rem;
 }
 
 .pt-48{
@@ -616,8 +678,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.5rem;
 }
 
-.pb-16{
-  padding-bottom: 4rem;
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -636,11 +698,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-2xl{
@@ -667,9 +724,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-grayblue-100{
+.text-black{
   --tw-text-opacity: 1;
-  color: rgb(200 200 203 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-slate-200{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .text-darkblue-200{
@@ -686,60 +748,93 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.75;
 }
 
+.shadow{
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.credit {
+  font-size: 11px;
+  text-align: center;
+}
+
+.credit a {
+  color: hsl(228, 45%, 44%);
+}
+
+.product-sub-menu-link{
+  display: none;
+}
+
+.product-link:hover .product-sub-menu-link{
+  transition: all 5s ease-in-out;
+  display: block;
+}
+
+.company-sub-menu-link{
+  display: none;
+}
+
+.company-link:hover .company-sub-menu-link{
+  transition: all 5s ease-in-out;
+  display: block;
+}
+
+.connect-sub-menu-link{
+  display: none;
+}
+
+.connect-link:hover .connect-sub-menu-link{
+  transition: all 5s ease-in-out;
+  display: block;
+}
+
 header{
   border-bottom-left-radius: 100px;
 }
 
-.btn:hover{
+.btn-white{
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  padding: 0.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 100ms;
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  color: rgb(255 61 84 / var(--tw-text-opacity));
 }
 
-.btn-link{
+.border-w{
   border-radius: 9999px;
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.btn-link:hover{
+.hover-w:hover{
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 100ms;
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  color: rgb(255 61 84 / var(--tw-text-opacity));
 }
 
-.future-img .img-container{
-  width:650px;
+.bg-opacity:hover{
+  --tw-bg-opacity: 0.4;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .custom-header-text{
@@ -752,7 +847,7 @@ header{
 .custom-paragraph{
   padding-top: 1rem;
   --tw-text-opacity: 1;
-  color: rgb(200 200 203 / var(--tw-text-opacity));
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .sai{
@@ -773,18 +868,63 @@ header{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
+.hover\:border-b:hover{
+  border-bottom-width: 1px;
+}
+
+.hover\:border-b-white:hover{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.hover\:font-bold:hover{
+  font-weight: 700;
+}
+
 @media (min-width: 640px){
+  .sm\:block{
+    display: block;
+  }
+
+  .sm\:flex{
+    display: flex;
+  }
+
   .sm\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .sm\:flex-col{
+    flex-direction: column;
   }
 }
 
 @media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:w-72{
+    width: 18rem;
+  }
+
+  .md\:w-80{
+    width: 20rem;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:justify-around{
+    justify-content: space-around;
   }
 }
