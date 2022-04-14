@@ -890,6 +890,10 @@ header{
     display: flex;
   }
 
+  .sm\:w-6{
+    width: 1.5rem;
+  }
+
   .sm\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -897,9 +901,30 @@ header{
   .sm\:flex-col{
     flex-direction: column;
   }
+
+  .sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 768px){
+  .md\:relative{
+    position: relative;
+  }
+
+  .md\:left-28{
+    left: 7rem;
+  }
+
+  .md\:bottom-12{
+    bottom: 3rem;
+  }
+
+  .md\:ml-8{
+    margin-left: 2rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -926,5 +951,30 @@ header{
 
   .md\:justify-around{
     justify-content: space-around;
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
